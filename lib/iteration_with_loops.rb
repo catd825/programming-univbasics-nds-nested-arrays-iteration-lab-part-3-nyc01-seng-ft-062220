@@ -9,7 +9,7 @@ def join_nested_strings(src)
       phrase=""
         while element_index < src[row_index].length do
           if src[row_index][element_index].is_a? String
-            phrase+=src[row_index][element_index].to_s
+            phrase+=src[row_index][element_index].join
           end
           element_index+=1
         end
