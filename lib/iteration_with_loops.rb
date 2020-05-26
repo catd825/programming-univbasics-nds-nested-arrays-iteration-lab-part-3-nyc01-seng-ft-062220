@@ -3,8 +3,8 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
   outer_results=[]
-  
-  
-  
+  row_index=0
+    while row_index<src.length
+      
   
 end
