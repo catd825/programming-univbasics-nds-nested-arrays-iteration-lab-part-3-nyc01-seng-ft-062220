@@ -16,5 +16,5 @@ def join_nested_strings(src)
         outer_results << phrase
         row_index+=1
       end
-    outer_results.to_s
+    outer_results
 end
