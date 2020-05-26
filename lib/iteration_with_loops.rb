@@ -13,7 +13,7 @@ def join_nested_strings(src)
           end
           element_index+=1
         end
-        outer_results << phrase
+        outer_results << phrase.to_s
         row_index+=1
       end
     outer_results
